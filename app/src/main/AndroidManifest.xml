@@ -13,6 +13,12 @@
         android:theme="@style/Theme.PortfolioAppByAbhi"
         tools:targetApi="31">
         <activity
+            android:name=".EducationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SkillsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
