@@ -1,8 +1,10 @@
 package com.the43h1.portfolioapp
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -24,10 +26,11 @@ class MainActivity : AppCompatActivity() {
 
         val BEdu = findViewById<Button>(R.id.EducationB)
 
-        BSkills.setOnClickListener {
+        BEdu.setOnClickListener {
             intent = Intent(this, EducationActivity::class.java)
             startActivity(intent)
         }
 
     }
+
 }
