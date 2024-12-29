@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -67,7 +68,7 @@
             android:layout_margin="10sp"
             android:layout_weight="1"
             android:padding="5sp"
-            android:text="Skills" />
+            android:text="@string/skills" />
 
         <Button
             android:id="@+id/EducationB"
@@ -76,7 +77,7 @@
             android:layout_margin="10sp"
             android:layout_weight="1"
             android:padding="5sp"
-            android:text="Education" />
+            android:text="@string/education" />
     </LinearLayout>
 
     <LinearLayout
@@ -92,7 +93,7 @@
             android:layout_margin="10sp"
             android:layout_weight="1"
             android:padding="5sp"
-            android:text="Experience" />
+            android:text="@string/experience" />
 
         <Button
             android:id="@+id/unknown"
@@ -101,7 +102,7 @@
             android:layout_margin="10sp"
             android:layout_weight="1"
             android:padding="5sp"
-            android:text="DM Me" />
+            android:text="@string/dm_me" />
     </LinearLayout>
 
     <LinearLayout
@@ -119,7 +120,7 @@
             android:backgroundTintMode="screen"
             android:padding="5sp"
             android:scaleType="centerInside"
-            tools:src="@drawable/linkedinpng" />
+            apps:src="@drawable/linkedinpng" />
 
         <ImageButton
             android:id="@+id/Instagram"
@@ -130,7 +131,7 @@
             android:backgroundTintMode="screen"
             android:padding="5sp"
             android:scaleType="centerInside"
-            tools:src="@drawable/instagrampng" />
+            apps:src="@drawable/instagrampng" />
 
         <ImageButton
             android:id="@+id/Twitter"
@@ -141,7 +142,7 @@
             android:backgroundTintMode="screen"
             android:padding="5sp"
             android:scaleType="centerInside"
-            tools:src="@drawable/twitterpng" />
+            apps:src="@drawable/twitterpng" />
 
         <ImageButton
             android:id="@+id/Github"
@@ -152,7 +153,7 @@
             android:backgroundTintMode="screen"
             android:padding="5sp"
             android:scaleType="centerInside"
-            tools:src="@drawable/github_" />
+            apps:src="@drawable/github_icon" />
 
 
     </LinearLayout>
